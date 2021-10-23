@@ -1,0 +1,163 @@
+/*COMMON CSS START*/
+BODY{
+
+}
+/*COMMON CSS END*/
+/*HEADER START*/
+header{
+border: 1px solid red;
+background-color: #121B2A;
+}
+.wrapper{
+    overflow: hidden;
+border: 1px solid red;
+margin: 30px;
+width: 90%;
+}
+.logo{
+    width: 15%;
+    padding-left: 13%;
+   padding-top: 2%;
+
+}
+.logo img{
+    width: 100%;
+    float: left;
+}
+.menu{
+    border: 1px solid black;
+    float: right;
+    margin-top: 3%;
+}
+.menu ul{
+float: right;
+
+}
+.menu ul li{
+list-style: none;
+float: left;
+
+}
+.menu ul li a{
+text-decoration: none;
+padding: 10px 25px;
+color: #FFFFFF;
+}
+.menu ul li:first-child a{
+    color: cornflowerblue;
+}
+/*header end*/
+/*banner start*/
+.banner{
+    height: 510px;
+    background-image: url(image/s1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.b_content{
+    padding-left: 50px;
+padding-top: 150px;
+font size: 35px;
+}
+.b_content h2{
+font-size: large;
+font-size: 50px;
+margin: 0;
+}
+.b_h1{
+    margin: 0;
+    color:#FFFFFF ;
+    font-size: 35px;
+}
+.b_text{
+    font-size: 30px;
+    color:#FFFFFF ;
+    
+}
+.b_content button{
+    padding: 16px 20px 16px 32px;
+    border-radius: 10px;
+}
+/*banner end*/
+/*service item start*/
+.service{}
+.wrapperr{
+    overflow: hidden;
+border: 1px solid red;
+margin: 0;
+width: 100%;
+
+}
+
+.s_wrapper{
+ 
+}
+.s_single{
+    width: 33.3%;
+    background-color: #121B2C;
+    height: 450px;
+    float: left;
+   
+}
+
+.s_image{
+    padding: 10px 20px 20px 20px;
+}
+.s_image image{
+    width: 100%;
+}
+  
+.s_text{
+    margin-top: 10px;
+    font-size: 30px;
+    color:#FFFFFF;
+    padding: 10px 20px 10px 20px;
+}
+/*service item end*/
+/*2nd service start*/
+.Testimonials{
+    
+    
+}
+wrapperr2{
+    overflow: hidden;
+    border: 1px solid red;
+    margin: 30px;
+    width: 90%;
+}
+.T_content{
+  
+}
+.T_single{
+    width: 33.3%;
+    background-color: #304657;
+    height: 300px;
+    float: left;
+}
+.T_h1{
+color: #FFFFFF;
+padding: 20px 30px 40px 70px;
+}
+    
+.T_text{
+    color: #FFFFFF;
+    padding: 20px 50px 20px 70px;
+}
+.T_image{
+    padding: 20px 60px 50px 70px;
+}
+,T_image img{
+    width: 100%;
+}
+/*footer start*/
+footer{
+    background-color: #008AFF;
+    padding: 25px;
+    margin: 0;
+    }
+    .f_text{
+        margin-top: 5px;
+        text-align: center;
+    }
+    /*footer end*/
